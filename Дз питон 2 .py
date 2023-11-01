@@ -1,0 +1,1 @@
+n = int(input('введите число: '))for y in range(1, n + 1):   if not n % y:       print(y)
