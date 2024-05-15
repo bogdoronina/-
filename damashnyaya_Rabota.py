@@ -1,0 +1,1 @@
+def average(*args):    if len(args) == 0:        return 0    total = sum(args)    return total / len(args)print(average(1, 2, 3, 4, 5))
